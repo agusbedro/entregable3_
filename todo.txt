@@ -1,0 +1,32 @@
+DONE:
++ El avatar se mueve a velocidad constante, avanzando en el escenario. 
+
++ El usuario puede aplicar impulso hacia arriba para mantener el vuelo y pasar a través de las tuberías.
+
++ El avatar debe reaccionar con al menos a 2 animaciones keyframe según la acción o evento. 
+
++ El escenario / background se debe mover de acuerdo al movimiento del jugador. Deben usar parallax scrolling.
+
++ El avatar debe interactuar con más de un elemento de obstáculo en la escena 
+(cañería, piedra, etc) Mostrando una animación (pueden ser keyframe o no) 
+acorde al movimiento que realiza el avatar (Ej: si se agacha en algún momento, 
+el avatar debe cambiar la animación keyframe) (Cosas a evitar chocar)
+
++ Ubicar bien las tuberias 
+
++ El avatar debe interactuar con elementos animados (pueden ser keyframe o no) en la escena 
+los cuales se podrá “coleccionar” para sumar puntos o vidas o monedas, por ejemplo.  
+
++ Mostrar una animacion al momento de recoger la moneda 
+Mostrando una animación acorde al momento de coleccionarlo. (Cosas a coleccionar)
+        ---> monedas 
+
++ pajaros aparecen cada vez mas rapido (if play en metodo crear bird enemigo)
+
++ chequear pantallas
+
+TO DO: 
+
++ chequear codigo 
+
+
