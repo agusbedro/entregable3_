@@ -220,9 +220,10 @@ function play() {
       pipe_sprite_inv.className = 'pipe_sprite';
 
       //Set space between pipes for differents screens 
-      if(window.screen.width > 1300 && window.screen.width < 1550)
+      console.log(window.screen.width)
+      if(window.screen.width > 1300 && window.screen.width < 1500)
         pipe_sprite_inv.style.top = pipe_posi - 160 + 'vh';
-      else if(window.screen.width > 1550 && window.screen.width < 1660)
+      else if(window.screen.width > 1500 && window.screen.width < 1660)
         pipe_sprite_inv.style.top = pipe_posi - 125 + 'vh';
       else if(window.screen.width > 1660 && window.screen.width < 1950)
         pipe_sprite_inv.style.top = pipe_posi - 100 + 'vh';
