@@ -297,13 +297,13 @@ function play() {
   }
   requestAnimationFrame(create_evil_bird);
 
-  //if the score exceeds 300, the player wins
+  //if the score exceeds 100, the player wins
   function score_exceeded(){
     
     if(state == 'End')
       return;
 
-    if(score_val.innerText > 300){  
+    if(score_val.innerText > 100){  
       state = 'End';
       message.innerHTML = 'Has llegado al final del juego';
       message.style.left = '21vw';

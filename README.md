@@ -8,4 +8,4 @@ El trabajo fue realizado en una notebook de 15.6 pulgadas
 
 ## Opcionales 
 + Se puede cambiar de avatar. Tocando arriba a la derecha, se seleccionará el avatar deseado en cualquier momento de juego. 
-+ Se implemento un sistema de puntaje. Cuando el score llegue a 300, el jugador habra ganado y el juego se termina. 
++ Se implemento un sistema de puntaje. Cuando el score llegue a 100, el jugador habra ganado y el juego se termina. 
