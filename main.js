@@ -221,8 +221,10 @@ function play() {
 
       //Set space between pipes for differents screens 
       if(window.screen.width > 1300 && window.screen.width < 1550)
+        pipe_sprite_inv.style.top = pipe_posi - 160 + 'vh';
+      else if(window.screen.width > 1550 && window.screen.width < 1660)
         pipe_sprite_inv.style.top = pipe_posi - 125 + 'vh';
-      else if(window.screen.width > 1550 && window.screen.width < 1950)
+      else if(window.screen.width > 1660 && window.screen.width < 1950)
         pipe_sprite_inv.style.top = pipe_posi - 100 + 'vh';
       
       pipe_sprite_inv.style.left = '100vw';
@@ -295,7 +297,7 @@ function play() {
   }
   requestAnimationFrame(create_evil_bird);
 
-
+  //if the score exceeds 300, the player wins
   function score_exceeded(){
     
     if(state == 'End')
